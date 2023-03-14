@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="text_view_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">
+            @android:style/TextAppearance.Large</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="button_style" parent="android:style/Widget.Material.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+
+    <style name="GreenTheme">
+        <item name="colorPrimary">@color/material_green_500</item>
+        <item name="colorPrimaryDark">@color/material_green_700</item>
+        <item name="colorPrimaryVariant">@color/material_green_700</item>
+        <item name="colorSecondary">@color/material_purple_a700</item>
+        <item name="android:colorBackground">@color/material_green_50</item>
+    </style>
+</resources>
